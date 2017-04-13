@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#d9d9d9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_blue">#63B8FF</color>
+    <color name="text_blue">#4c8599</color>
+    <color name="hint_grey">#808080</color>
+    <color name="dialog_grey">#f2f2f2</color>
+    <color name="blue">#2db5e5</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_grey">#50000000</color>
+    <color name="transparent_normal">#00ffffff</color>
+    <color name="transparent_leave">#99FF8800</color>
+    <color name="transparent_absent">#99CC0000</color>
+    <color name="normal">#50000000</color>
+    <color name="leave">#FF8800</color>
+    <color name="absent">#CC0000</color>
+</resources>

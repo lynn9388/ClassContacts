@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/text_blue"
+        android:layout_marginLeft="20dip"
+        android:paddingBottom="1dip"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true" >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tab_student"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_text_student"
+                android:paddingRight="8dip"
+                android:paddingLeft="8dip"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:onClick="onTabClick" />
+
+            <ImageView
+                android:id="@+id/scroll_1"
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:background="@drawable/view_pager_scroll"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/tab_student"
+                android:layout_alignRight="@id/tab_student" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tab_dormitory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_text_dormitory"
+                android:paddingRight="8dip"
+                android:paddingLeft="8dip"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:onClick="onTabClick" />
+
+            <ImageView
+                android:id="@+id/scroll_2"
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:background="@drawable/view_pager_scroll"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/tab_dormitory"
+                android:layout_alignRight="@id/tab_dormitory" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tab_course"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_text_course"
+                android:paddingRight="8dip"
+                android:paddingLeft="8dip"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:onClick="onTabClick" />
+
+            <ImageView
+                android:id="@+id/scroll_3"
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:background="@drawable/view_pager_scroll"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@id/tab_course"
+                android:layout_alignRight="@id/tab_course" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:src="@color/blue" />
+
+</RelativeLayout>

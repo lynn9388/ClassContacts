@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/tab_group">
+        <item
+            android:id="@+id/tab_menu_contacts"
+            android:icon="@drawable/ic_tab_contacts"
+            android:showAsAction="always"
+            android:title="@string/tab_menu_title_contacts"/>
+        <item
+            android:id="@+id/tab_menu_search"
+            android:icon="@drawable/ic_tab_search"
+            android:showAsAction="always"
+            android:title="@string/tab_menu_title_search"/>
+
+    </group>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/action_bar_bg"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/action_bar_bg"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+
+</menu>

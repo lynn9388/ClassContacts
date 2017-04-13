@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.wust.lynn.classcontacts.browse.CourseDetailActivity" >
+
+    <item android:id="@+id/action_check_list"
+        android:title="@string/action_check_list"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_edit_course"
+        android:title="@string/action_edit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_delete_course"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_add_check"
+        android:title="@string/action_add_check"
+        android:icon="@drawable/ic_action_add_check"
+        android:showAsAction="always"/>
+</menu>

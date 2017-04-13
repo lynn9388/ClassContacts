@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="action_settings">设置</string>
+    <string name="app_name">班级联系人</string>
+    <string name="tab_menu_title_check">签到</string>
+    <string name="tab_menu_title_contacts">联系人</string>
+    <string name="tab_menu_title_search">搜索</string>
+    <string name="tab_text_dormitory">寝室</string>
+    <string name="tab_text_student">学生</string>
+    <string name="action_add_check">签到</string>
+    <string name="action_check_list">签到列表</string>
+    <string name="action_delete">删除</string>
+    <string name="action_done">保存</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_new_contact">新学生</string>
+    <string name="action_new_course">新课程</string>
+    <string name="action_new_room">新寝室</string>
+    <string name="button_message_cancel">取消</string>
+    <string name="button_message_ok">确定</string>
+    <string name="button_message_send_messages">群发信息</string>
+    <string name="edit_boy">男</string>
+    <string name="edit_course_name">课程名</string>
+    <string name="edit_girl">女</string>
+    <string name="edit_id">编号</string>
+    <string name="edit_name">姓名</string>
+    <string name="edit_note">笔记</string>
+    <string name="edit_phone">手机</string>
+    <string name="edit_room">寝室</string>
+    <string name="edit_teacher_name">老师姓名</string>
+    <string name="menu_save">保存</string>
+    <string name="message_add_dormitory_info">编辑寝室信息</string>
+    <string name="message_address_exist">寝室地址已存在</string>
+    <string name="message_blank_address">地址不能为空</string>
+    <string name="message_blank_course_name">课程名不能为空</string>
+    <string name="message_blank_id">编号不能为空</string>
+    <string name="message_check_saved">签到已保存</string>
+    <string name="message_contact_saved">学生已保存</string>
+    <string name="message_course_saved">课程已保存</string>
+    <string name="message_delete_check">该课程的本节课记录将被删除</string>
+    <string name="message_delete_contact">该学生的所有信息将被删除</string>
+    <string name="message_delete_course">该课程的所有信息将被删除</string>
+    <string name="message_delete_dormitory">该学生寝室信息将被删除</string>
+    <string name="message_edit_course_and_delete_data">取消选中的学生信息将被删除</string>
+    <string name="message_id_exist">该编号已存在</string>
+    <string name="message_room_hint">地址</string>
+    <string name="no_network_connection_toast">未发现网络链接</string>
+    <string name="search_title">搜索</string>
+    <string name="tab_text_course">课程</string>
+    <string name="text_absent">旷课</string>
+    <string name="text_absent_state">旷</string>
+    <string name="text_leave">请假</string>
+    <string name="text_leave_state">假</string>
+    <string name="text_normal">到课</string>
+    <string name="text_normal_state">到</string>
+    <string name="text_search">搜索联系人</string>
+    <string name="title_activity_check">签到</string>
+    <string name="title_activity_check_list">签到列表</string>
+    <string name="title_activity_course_detail">详情</string>
+    <string name="title_activity_edit_contact">编辑</string>
+    <string name="title_activity_edit_course">编辑</string>
+    <string name="title_activity_search">搜索</string>
+    <string name="title_activity_student_detail">详情</string>
+    <string name="title_add_room">新寝室</string>
+    <string name="title_choose_photo_source">相片来源</string>
+    <string name="title_no_room_info">无寝室信息</string>
+    <string name="action_about">关于</string>
+    <string name="title_about">关于</string>
+
+    <string-array name="choose_photo_array">
+        <item>相机</item>
+        <item>相册</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edu.wust.lynn.classcontacts.browse.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show_check_student_photo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/show_check_student_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/show_check_student_photo"
+        android:layout_alignBottom="@id/show_check_student_photo"
+        android:layout_alignLeft="@id/show_check_student_photo"
+        android:layout_alignRight="@id/show_check_student_photo"
+        android:background="@color/transparent_leave" />
+
+    <TextView
+        android:id="@+id/show_check_student_state"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignRight="@id/show_check_student_cover"
+        android:layout_alignTop="@id/show_check_student_cover"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/text_leave_state"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/show_check_student_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/show_check_student_photo"
+        android:layout_alignLeft="@+id/show_check_student_photo"
+        android:layout_alignStart="@+id/show_check_student_photo"
+        android:layout_alignRight="@+id/show_check_student_photo"
+        android:layout_alignEnd="@+id/show_check_student_photo"
+        android:background="@color/leave">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/show_check_student_name"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_check_student_id"
+            android:layout_below="@+id/show_check_student_name"
+            android:layout_alignLeft="@+id/show_check_student_name"
+            android:layout_alignStart="@+id/show_check_student_name"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</edu.wust.lynn.classcontacts.browse.SquareLayout>

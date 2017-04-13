@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Class Contacts</string>
+    <string name="tab_text_student">Student</string>
+    <string name="tab_text_dormitory">Dormitory</string>
+    <string name="tab_text_course">Course</string>
+    <string name="tab_menu_title_contacts">Contacts</string>
+    <string name="tab_menu_title_search">Search</string>
+    <string name="tab_menu_title_check">Check</string>
+    <string name="search_title">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new_contact">New contact</string>
+    <string name="action_new_room">New room</string>
+    <string name="action_new_course">New course</string>
+    <string name="action_done">DONE</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add_check">Check</string>
+    <string name="action_check_list">Check list</string>
+    <string name="action_about">About</string>
+    <string name="menu_save">Save</string>
+    <string name="title_add_room">New room</string>
+    <string name="title_no_room_info">No room info</string>
+    <string name="title_about">About</string>
+    <string name="message_blank_address">Address can\'t be blank</string>
+    <string name="message_address_exist">This address has existed</string>
+    <string name="message_room_hint">Address</string>
+    <string name="message_id_exist">This ID has existed</string>
+    <string name="message_blank_id">ID can\'t be blank</string>
+    <string name="message_contact_saved">Contact saved</string>
+    <string name="message_delete_contact">All data about this contact will be deleted</string>
+    <string name="message_blank_course_name">Course name can\'t be blank</string>
+    <string name="message_course_saved">Course saved</string>
+    <string name="message_delete_course">All data about this course will be deleted</string>
+    <string name="message_edit_course_and_delete_data">Some students\' information might be deleted</string>
+    <string name="message_check_saved">Check saved</string>
+    <string name="message_delete_check">The record of this course will be deleted</string>
+    <string name="message_delete_dormitory">These students\' room information will de deleted</string>
+    <string name="message_add_dormitory_info">Edit room information</string>
+    <string name="button_message_ok">OK</string>
+    <string name="button_message_cancel">Cancel</string>
+    <string name="button_message_send_messages">Send messages</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_boy">Boy</string>
+    <string name="edit_girl">Girl</string>
+    <string name="edit_id">ID</string>
+    <string name="edit_phone">Phone</string>
+    <string name="edit_room">Room</string>
+    <string name="edit_note">Notes</string>
+    <string name="edit_course_name">Course name</string>
+    <string name="edit_teacher_name">Teacher name</string>
+    <string name="text_normal_state">Normal</string>
+    <string name="text_absent_state">Absent</string>
+    <string name="text_leave_state">Leave</string>
+    <string name="text_normal">Normal:</string>
+    <string name="text_absent">Absent:</string>
+    <string name="text_leave">Leave:</string>
+    <string name="text_search">search contact</string>
+    <string name="title_choose_photo_source">Photo source</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+
+    <string-array name="choose_photo_array">
+        <item>Take photo</item>
+        <item>Choose photo from Gallery</item>
+    </string-array>
+
+    <string name="title_activity_edit_contact">Edit</string>
+    <string name="title_activity_student_detail">Details</string>
+    <string name="title_activity_edit_course">Edit</string>
+    <string name="title_activity_course_detail">Details</string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_check_list">Check List</string>
+    <string name="title_activity_search">Search</string>
+
+</resources>

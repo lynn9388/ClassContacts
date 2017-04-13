@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/grey">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:id="@+id/show_course_detail_photo"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:scaleType="centerCrop"
+    android:layout_marginBottom="8dp" />
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/show_course_detail_photo"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/transparent_grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/show_course_detail_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/show_course_detail_teacher_name"
+        android:textColor="@color/white"
+        android:layout_below="@+id/show_course_detail_name"
+        android:layout_alignLeft="@+id/show_course_detail_name"
+        android:layout_alignStart="@+id/show_course_detail_name"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/show_course_detail_id"
+        android:layout_toEndOf="@+id/show_course_detail_name"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/show_course_detail_name"
+        android:layout_alignBottom="@+id/show_course_detail_name"
+        android:layout_toRightOf="@+id/show_course_detail_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/show_course_detail_phone"
+        android:layout_toEndOf="@+id/show_course_detail_teacher_name"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/show_course_detail_teacher_name"
+        android:layout_alignBottom="@+id/show_course_detail_teacher_name"
+        android:layout_toRightOf="@+id/show_course_detail_teacher_name" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_course_detail_call"
+        android:src="@drawable/ic_action_dark_call"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:onClick="callPhone" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_course_detail_message"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/show_course_detail_call"
+        android:layout_toStartOf="@+id/show_course_detail_call"
+        android:src="@drawable/ic_action_dark_send"
+        android:layout_marginRight="16dp"
+        android:onClick="sendMessage" />
+</RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/show_course_detail_statistics_list"
+        android:layout_below="@+id/show_course_detail_photo"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp" />
+
+</RelativeLayout>

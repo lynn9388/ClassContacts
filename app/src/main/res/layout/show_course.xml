@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:id="@+id/show_course_photo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/show_course_photo"
+        android:layout_alignLeft="@+id/show_course_photo"
+        android:layout_alignStart="@+id/show_course_photo"
+        android:layout_alignRight="@+id/show_course_photo"
+        android:layout_alignEnd="@+id/show_course_photo"
+        android:background="@color/transparent_grey">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/show_course_name"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_course_detail_teacher_name"
+            android:layout_below="@+id/show_course_name"
+            android:layout_alignLeft="@+id/show_course_name"
+            android:layout_alignStart="@+id/show_course_name"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_course_id"
+            android:layout_toEndOf="@+id/show_course_detail_teacher_name"
+            android:layout_alignBaseline="@+id/show_course_name"
+            android:layout_alignBottom="@+id/show_course_name"
+            android:layout_toRightOf="@+id/show_course_detail_teacher_name"
+            android:textColor="@color/transparent" />
+    </RelativeLayout>
+
+</RelativeLayout>

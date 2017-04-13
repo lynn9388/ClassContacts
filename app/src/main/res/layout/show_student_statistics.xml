@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:onClick="showStudentDetail">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/show_student_statistics_name"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_student_statistics_id"
+            android:layout_alignBottom="@+id/show_student_statistics_name"
+            android:layout_toRightOf="@+id/show_student_statistics_name"
+            android:layout_toEndOf="@+id/show_student_statistics_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/text_normal"
+            android:id="@+id/textView_normal"
+            android:layout_below="@+id/show_student_statistics_name"
+            android:layout_alignLeft="@+id/show_student_statistics_name"
+            android:layout_alignStart="@+id/show_student_statistics_name"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_student_statistics_normal"
+            android:layout_alignBottom="@+id/textView_normal"
+            android:layout_toRightOf="@+id/textView_normal"
+            android:layout_toEndOf="@+id/textView_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/text_leave"
+            android:id="@+id/textView_leave"
+            android:layout_alignBottom="@+id/show_student_statistics_normal"
+            android:layout_toRightOf="@+id/show_student_statistics_normal"
+            android:layout_toEndOf="@+id/show_student_statistics_normal" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_student_statistics_leave"
+            android:layout_alignBottom="@+id/textView_leave"
+            android:layout_toRightOf="@+id/textView_leave"
+            android:layout_toEndOf="@+id/textView_leave" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/text_absent"
+            android:id="@+id/textView_absent"
+            android:layout_alignBottom="@+id/show_student_statistics_leave"
+            android:layout_toRightOf="@+id/show_student_statistics_leave"
+            android:layout_toEndOf="@+id/show_student_statistics_leave" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/show_student_statistics_absent"
+            android:layout_alignBottom="@+id/textView_absent"
+            android:layout_toRightOf="@+id/textView_absent"
+            android:layout_toEndOf="@+id/textView_absent" />
+
+    </RelativeLayout>
+</LinearLayout>

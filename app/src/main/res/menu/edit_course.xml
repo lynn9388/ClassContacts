@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.wust.lynn.classcontacts.edit.EditCourseActivity" >
+    <item android:id="@+id/menu_save"
+        android:icon="@drawable/ic_action_accept"
+        android:title="@string/menu_save"
+        android:showAsAction="ifRoom|withText"/>
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.wust.lynn.classcontacts" >
+
+    <uses-feature
+        android:name="android:hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tab.ContactsActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".tab.SearchActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".edit.EditStudentActivity"
+            android:parentActivityName=".tab.ContactsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.wust.lynn.classcontacts.tab.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".browse.StudentDetailActivity"
+            android:parentActivityName=".tab.ContactsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.wust.lynn.classcontacts.tab.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".edit.EditCourseActivity"
+            android:label="@string/title_activity_edit_course"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".browse.CourseDetailActivity"
+            android:label="@string/title_activity_course_detail"
+            android:parentActivityName=".tab.ContactsActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.wust.lynn.classcontacts.tab.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".edit.CheckActivity"
+            android:label="@string/title_activity_check"
+            android:parentActivityName=".browse.CourseDetailActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.wust.lynn.classcontacts.browse.CourseDetailActivity" />
+        </activity>
+        <activity
+            android:name=".browse.CheckListActivity"
+            android:label="@string/title_activity_check_list"
+            android:parentActivityName=".browse.CourseDetailActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.wust.lynn.classcontacts.browse.CourseDetailActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.wust.lynn.classcontacts.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

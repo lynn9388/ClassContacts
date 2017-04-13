@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.wust.lynn.classcontacts.browse.StudentDetailActivity" >
+
+    <item android:id="@+id/action_edit_contact"
+        android:title="@string/action_edit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_delete_contact"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

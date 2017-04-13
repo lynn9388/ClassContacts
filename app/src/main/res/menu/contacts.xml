@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.wust.lynn.classcontacts.tab.ContactsActivity" >
+
+    <item android:id="@+id/action_new_contact"
+        android:showAsAction="never"
+        android:title="@string/action_new_contact"/>
+
+    <item android:id="@+id/action_new_course"
+        android:showAsAction="never"
+        android:title="@string/action_new_course"/>
+</menu>
